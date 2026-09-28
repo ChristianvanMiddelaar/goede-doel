@@ -1,0 +1,161 @@
+a{
+    text-decoration: none;
+
+    color: rgb(0, 0, 0);
+}
+.logo{
+    height: auto; 
+
+    transform: rotate(0deg);
+    width: 140px;
+    margin-left: 0px;
+}
+.navbar {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-family: 'inter', sans-serif;
+
+    gap: 91px;
+    width:97.4%;
+    padding: 5px;
+    top: 0px;
+    left: 0;    
+    font-size: 21px;
+}
+.shape1{
+    display: flex;
+    background-color: #EE0000;
+    
+    border-radius: 90px;
+    padding: 23px;
+    padding-inline: 37px;
+    
+}
+.shape1 a{
+    color: #ffffff;
+}
+.shape2{
+    background-color: #EE0000;
+    display: flex;
+
+    font-size: 20px;
+    width: 35%;
+    border-radius: 90px;
+    padding: 25px;
+    padding-inline: 55px;
+    left: 50px;
+    margin-top: -260px;
+}
+.shape2 a{
+    color: #ffffff;
+}
+.herostory{
+    display: flex;
+    flex-direction: column;
+    font-family: 'inter', sans-serif;
+
+    font-size: 36px;
+    margin-top: 220px;
+    margin-left: 50px;
+    margin-bottom: 190px;
+    width: 20%;
+}
+.herostory-img{
+    height: auto;
+
+    margin-left: 500px;
+    margin-top: -450px;
+    width: 950px;
+}
+.herostory-text{
+    
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.arrow{
+    height: auto;
+
+    width: 20px;
+    /* margin-left: 5px; */
+}
+
+.gradient{
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+    background-image: linear-gradient(90deg,rgba(255,0,0,0) 25%,rgba(255,0,0,1) 50%,rgba(255,0,0,0)75%);
+    align-items: center;
+    font-family: 'bold', sans-serif;
+
+    font-weight: 750;
+    font-size: 40px;
+    margin-top: 10px;
+}
+.whatwedo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+
+  margin-left: -8px;
+  margin-right: -8px;
+  gap: 50px;
+  padding: 30px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+
+    width: 80vw;    
+    gap: 50px;
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box {
+    background-color: lightgray;
+    
+    flex: 1;
+    font-size: 25px;
+    border-radius: 15px;
+    padding: 25px;
+}
+#rood{
+    background-color: rgb(255, 0, 0);
+}
+#wit{
+    background-color: rgb(255, 255, 255);
+}
+
+.whitetext{
+    color:#ffffff
+}
+
+.container>*:nth-child(1){
+flex: 1;
+}
+.container>*:nth-child(2){
+flex: 3;
+}
+
+.reviews{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+ul li{
+    display: flex;
+    align-items: center;
+
+    gap: 10px;
+}
