@@ -33,6 +33,7 @@ a {
 
 .shape1 {
     display: flex;
+    color: #fff;
     background-color: #EE0000;
 
     border-radius: 90px;
@@ -40,12 +41,9 @@ a {
     padding-inline: 37px;
 }
 
-.shape1 a {
-    color: #ffffff;
-}
-
 .shape2 {
     background-color: #EE0000;
+    color: #fff;
     display: flex;
 
     font-size: 20px;
@@ -57,12 +55,9 @@ a {
     margin-top: -260px;
 }
 
-.shape2 a {
-    color: #ffffff;
-}
-
 .shape3 {
     background-color: #EE0000;
+    color: #fff;
     display: flex;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
@@ -76,15 +71,11 @@ a {
     margin-top: 0px;
 }
 
-.shape3 a {
-    color: #ffffff;
-}
-
 .shape4 {
     background-color: #EE0000;
     color: #ffffff;
     font-family: Arial, Helvetica, sans-serif;
-    
+
     border: 3px solid rgb(255, 255, 255);
     margin-left: 10px;
     margin-right: 10px;
@@ -95,7 +86,6 @@ a {
     padding-right: 170px;
     border-radius: 3px;
 }
-
 
 .herostory {
     display: flex;
@@ -134,7 +124,7 @@ a {
     background-color: #ffffff;
     align-items: center;
     font-family: 'bold', sans-serif;
-    
+
     background-image: linear-gradient(90deg, rgba(255, 0, 0, 0) 25%, rgba(255, 0, 0, 1) 50%, rgba(255, 0, 0, 0)75%);
     font-weight: 600;
     padding-top: 5px;
@@ -167,7 +157,6 @@ a {
 
 .box {
     background-color: lightgray;
-
 
     flex: 1;
     font-size: 25px;
@@ -229,7 +218,6 @@ a {
     border-radius: 15px;
 }
 
-
 .reviewbox2 {
     background-color: #000000;
     color: white;
@@ -245,12 +233,11 @@ a {
     border-radius: 15px;
 }
 
-
 .reviewbox p {
     margin-left: 30px;
 }
 
-.arrow1{
+.arrow1 {
     display: flex;
     flex-direction: row;
 }
@@ -269,7 +256,7 @@ a {
     background-color: #000000;
     display: flex;
     flex-direction: column;
-    
+
     filter: drop-shadow(1px 1px 6px gray);
     margin-top: 3%;
     margin-right: 30%;
@@ -329,7 +316,7 @@ a {
 
 .borderA {
     color: #fff;
-    
+
     border: 3px solid rgb(255, 255, 255);
     font-size: 18px;
     padding-left: 50px;
@@ -344,7 +331,7 @@ a {
 
 .borderB {
     color: #fff;
-    
+
     border: 3px solid rgb(255, 255, 255);
     margin-right: 400px;
     margin-left: 10px;
@@ -357,7 +344,7 @@ a {
 
 .borderC {
     color: #fff;
-    
+
     border: 3px solid rgb(255, 255, 255);
     margin-right: 350px;
     margin-left: 10px;
@@ -370,7 +357,7 @@ a {
 
 .borderD {
     color: #fff;
-    
+
     border: 3px solid rgb(255, 255, 255);
     margin-right: 420px;
     margin-left: 10px;
@@ -382,7 +369,7 @@ a {
 }
 
 .donatetext2 {
-    color:#fff;
+    color: #fff;
 
     margin-left: 10px;
 }
@@ -458,20 +445,20 @@ a {
     margin-bottom: 0px;
 }
 
-.footertext3{
+.footertext3 {
     color: #50717E;
 
     margin-left: 50px;
     margin-top: 100px;
 }
 
-.footertext4{
+.footertext4 {
     color: #ffffff;
 
     margin-left: 50px;
 }
 
-.footertext5{
+.footertext5 {
     color: #808E71;
 
     margin-left: 50px;
@@ -501,62 +488,62 @@ a {
     margin-left: 50px;
 }
 
-.footeroptions1{
+.footeroptions1 {
     color: #fff;
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
 
     font-size: 12px;
     margin-top: 65px;
     margin-left: 250px;
 }
 
-.footeroptions1 > p:first-child{
- color: #EE0000;
+.footeroptions1>p:first-child {
+    color: #EE0000;
 }
 
-.footeroptions2{
+.footeroptions2 {
     color: #fff;
     display: flex;
-    flex-direction:column ;
+    flex-direction: column;
 
     font-size: 12px;
     margin-top: 105px;
     margin-left: 150px;
 }
 
-.footeroptions3{
+.footeroptions3 {
     color: #fff;
     display: flex;
-    flex-direction:column ;
+    flex-direction: column;
 
     font-size: 12px;
     margin-top: 65px;
     margin-left: 150px;
 }
 
-.footeroptions3 > p:first-child{
- color: #EE0000;
+.footeroptions3>p:first-child {
+    color: #EE0000;
 }
 
-.footeroptions4{
+.footeroptions4 {
     color: #fff;
     display: flex;
-    flex-direction:column ;
+    flex-direction: column;
 
     font-size: 12px;
     margin-top: 65px;
     margin-left: 150px;
 }
 
-.footeroptions4 > p:first-child{
- color: #EE0000;
+.footeroptions4>p:first-child {
+    color: #EE0000;
 }
 
-.logos{
+.logos {
     display: flex;
     flex-direction: row;
-    
+
     margin-left: 900px;
     margin-bottom: 25px;
     gap: 25px;
