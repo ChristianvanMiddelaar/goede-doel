@@ -1,3 +1,7 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 a {
     text-decoration: none;
 
@@ -24,10 +28,13 @@ a {
     font-family: 'inter', sans-serif;
 
     gap: 91px;
-    width: 97.4%;
-    padding: 5px;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 0px;
+    margin: 0px;
     top: 0px;
-    left: 0;
+    left: 0px;
     font-size: 21px;
 }
 
@@ -36,7 +43,6 @@ a {
     color: #fff;
     background-color: #EE0000;
 
-    border-radius: 90px;
     padding: 23px;
     padding-inline: 37px;
 }
@@ -48,7 +54,6 @@ a {
 
     font-size: 20px;
     width: 35%;
-    border-radius: 90px;
     padding: 25px;
     padding-inline: 55px;
     left: 50px;
@@ -64,7 +69,6 @@ a {
 
     margin-left: 1325px;
     font-size: 19px;
-    border-radius: 90px;
     padding: 25px;
     padding-inline: 55px;
     left: 50px;
@@ -84,7 +88,6 @@ a {
     padding: 15px;
     padding-left: 140px;
     padding-right: 170px;
-    border-radius: 3px;
 }
 
 .herostory {
@@ -253,7 +256,7 @@ a {
 }
 
 .donatebox {
-    background-color: #000000;
+    background-color: #ffffff;
     display: flex;
     flex-direction: column;
 
@@ -261,7 +264,6 @@ a {
     margin-top: 3%;
     margin-right: 30%;
     margin-left: 30%;
-    border-radius: 15px;
     padding-left: 45px;
     padding-right: 0px;
     padding-bottom: 50px;
@@ -269,9 +271,9 @@ a {
 
 .circle1 {
     display: flex;
-    background-color: #000000;
+    background-color: #ffffff;
 
-    border: 3px solid rgb(255, 255, 255);
+    border: 3px solid rgb(0, 0, 0);
     height: 20px;
     width: 20px;
     border-radius: 500px;
@@ -280,9 +282,9 @@ a {
 
 .circle2 {
     display: flex;
-    background-color: #000000;
+    background-color: #ffffff;
 
-    border: 3px solid rgb(255, 255, 255);
+    border: 3px solid rgb(0, 0, 0);
     height: 20px;
     width: 20px;
     border-radius: 500px;
@@ -290,34 +292,30 @@ a {
 
 }
 
-.donatetext {
-    color: #fff;
-    margin-left: 6%;
-    margin-top: -22px;
-}
-
 .moneyamount {
     display: flex;
     flex-direction: row;
-    color: #fff;
+    color: #000000;
 
     padding-left: 10px;
     gap: 9%;
 }
 
 .border {
-    border: 3px solid rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    border: 3px solid rgb(0, 0, 0);
 
     padding-left: 50px;
-    padding-right: 50px;
+    padding-right: 48px;
     padding-top: 7px;
     padding-bottom: 7px;
 }
 
 .borderA {
-    color: #fff;
+    color: #000000;
 
-    border: 3px solid rgb(255, 255, 255);
+    border: 3px solid rgb(0, 0, 0);
     font-size: 18px;
     padding-left: 50px;
     padding-right: 50px;
@@ -330,35 +328,36 @@ a {
 }
 
 .borderB {
-    color: #fff;
+    color: #000000;
 
-    border: 3px solid rgb(255, 255, 255);
+    border: 3px solid rgb(0, 0, 0);
+    font-size: 14px;
     margin-right: 400px;
     margin-left: 10px;
     margin-top: -5px;
     padding-left: 30px;
-    padding-right: 50px;
+    padding-right: 55px;
     padding-top: 7px;
     padding-bottom: 7px;
 }
 
 .borderC {
-    color: #fff;
+    color: #000000;
 
-    border: 3px solid rgb(255, 255, 255);
+    border: 3px solid rgb(0, 0, 0);
     margin-right: 350px;
     margin-left: 10px;
     margin-top: -5px;
     padding-left: 49px;
-    padding-right: 50px;
-    padding-top: 3px;
+    padding-right: 40px;
+    padding-top: 6px;
     padding-bottom: 7px;
 }
 
 .borderD {
-    color: #fff;
+    color: #000000;
 
-    border: 3px solid rgb(255, 255, 255);
+    border: 3px solid rgb(0, 0, 0);
     margin-right: 420px;
     margin-left: 10px;
     margin-top: -5px;
@@ -368,23 +367,49 @@ a {
     padding-bottom: 7px;
 }
 
-.donatetext2 {
-    color: #fff;
+.donatetext {
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
 
+    margin-left: 6%;
+    margin-top: -22px;
+}
+
+.donatetext2 {
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+
+    font-size: 1.5em;
     margin-left: 10px;
 }
 
 .donatetext3 {
-    color: #fff;
+    color: #686464;
     font-family: Arial, Helvetica, sans-serif;
 
+    font-size: 10px;
     padding-bottom: 10px;
     margin-right: 150px;
     margin-left: 10px;
 }
 
+.donatetextnotimportent {
+    background-color: #EE0000;
+    font-family: Arial, Helvetica, sans-serif;
+
+    padding: 15px;
+    font-size: 13px;
+    margin-left: 350px;
+    margin-top: -10px;
+    margin-right: 25px;
+}
+
+.donatetextnotimportent a{
+    color: #ffffff;
+}
+
 .square {
-    border: 2px solid rgb(255, 255, 255);
+    border: 2px solid rgb(0, 0, 0);
     height: 20px;
     width: 20px;
     margin-left: 10px;
@@ -409,6 +434,7 @@ a {
 .footer3 {
     display: flex;
     flex-direction: row;
+    list-style-type: none;
 }
 
 .socialmissionpercent {
@@ -498,6 +524,10 @@ a {
     margin-left: 250px;
 }
 
+.footeroptions1 a {
+    color: #fff;
+}
+
 .footeroptions1>p:first-child {
     color: #EE0000;
 }
@@ -512,6 +542,10 @@ a {
     margin-left: 150px;
 }
 
+.footeroptions2 a {
+    color: #fff;
+}
+
 .footeroptions3 {
     color: #fff;
     display: flex;
@@ -520,6 +554,10 @@ a {
     font-size: 12px;
     margin-top: 65px;
     margin-left: 150px;
+}
+
+.footeroptions3 a {
+    color: #fff;
 }
 
 .footeroptions3>p:first-child {
@@ -535,6 +573,11 @@ a {
     margin-top: 65px;
     margin-left: 150px;
 }
+
+.footeroptions4 a {
+    color: #fff;
+}
+
 
 .footeroptions4>p:first-child {
     color: #EE0000;
