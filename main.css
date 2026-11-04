@@ -83,8 +83,8 @@ a {
     border: 3px solid rgb(255, 255, 255);
     margin-top: 15px;
     padding: 15px;
-    padding-left: 140px;
-    padding-right: 170px;
+    padding-left: 150px;
+    padding-right: 190px;
 }
 
 .herostory {
@@ -266,36 +266,73 @@ a {
     padding-bottom: 65px;
 }
 
-.circle1 {
-    display: flex;
-    background-color: #ffffff;
-
-    border: 3px solid rgb(0, 0, 0);
-    height: 20px;
-    width: 20px;
-    border-radius: 500px;
-    margin-top: 50px;
+input[type=text]{
+    width: 60%;
+    padding: 12px;
+    margin: 4px 0;
+    display: inline-block;
+    border: 3px solid;
+    box-sizing: border-box;
 }
 
-.circle2 {
-    display: flex;
-    background-color: #ffffff;
+input[type=name]{
+    border: 3px solid;
+    padding-left: 12px;
+    width: 200px;
+    height: 35px;
+}
 
-    border: 3px solid rgb(0, 0, 0);
-    height: 20px;
+input[type=monyamount]{
+    width: 80%;
+    padding: 12px;
+    margin: 8px;
+    display: inline-block;
+    border: 3px solid;
+    box-sizing: border-box;
+}
+
+input[type=middlename]{
+    border: 3px solid;
+    padding-left: 12px;
+    width: 250px;
+    margin-top: 8px;
+    height: 35px;
+}
+
+input[type=housenumber]{
+    border: 3px solid;
+    padding-left: 12px;
+    width: 120px;
+    margin-top: 8px;
+    height: 25px;
+}
+
+input[type=radio]{
+    margin-bottom: 10px;
     width: 20px;
-    border-radius: 500px;
-    margin-top: 10px;
+    height: 20px;
+}
 
+.MonthlyOrOnce{
+    border: none;
 }
 
 .moneyamount {
     display: flex;
     flex-direction: row;
     color: #000000;
+    border: none;
 
-    padding-left: 10px;
+    width: 25px;
+    height: 25px;
+    padding: 10px;
     gap: 9%;
+}
+
+.bordermoneyamount{
+    height: 25px;
+    width: 150px;
+    border: 3px solid;
 }
 
 .border {
@@ -306,61 +343,6 @@ a {
     padding-left: 50px;
     padding-right: 48px;
     padding-top: 7px;
-    padding-bottom: 7px;
-}
-
-.borderA {
-    color: #000000;
-
-    border: 3px solid rgb(0, 0, 0);
-    font-size: 18px;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 7px;
-    padding-bottom: 7px;
-    padding-left: 195px;
-    margin-left: 10px;
-    margin-top: -10px;
-    margin-right: 70px;
-}
-
-.borderB {
-    color: #000000;
-
-    border: 3px solid rgb(0, 0, 0);
-    font-size: 14px;
-    margin-right: 400px;
-    margin-left: 10px;
-    margin-top: -5px;
-    padding-left: 30px;
-    padding-right: 55px;
-    padding-top: 7px;
-    padding-bottom: 7px;
-}
-
-.borderC {
-    color: #000000;
-
-    border: 3px solid rgb(0, 0, 0);
-    margin-right: 350px;
-    margin-left: 10px;
-    margin-top: -5px;
-    padding-left: 49px;
-    padding-right: 40px;
-    padding-top: 6px;
-    padding-bottom: 7px;
-}
-
-.borderD {
-    color: #000000;
-
-    border: 3px solid rgb(0, 0, 0);
-    margin-right: 420px;
-    margin-left: 10px;
-    margin-top: -5px;
-    padding-left: 32px;
-    padding-right: 50px;
-    padding-top: 3px;
     padding-bottom: 7px;
 }
 
@@ -409,7 +391,6 @@ a {
     padding: 15px;
     font-size: 13px;
     margin-left: 350px;
-    margin-top: -10px;
     margin-right: 25px;
 }
 
